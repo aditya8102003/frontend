@@ -1,0 +1,169 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  padding-left: 40rem;
+  padding-right: 40rem;
+  padding-bottom: 40rem;
+}
+
+.registration-form {
+  background-color: white;
+  padding: 2rem;
+  padding-left: 40rem;
+  padding-right: 40rem;
+  padding-bottom: 40rem;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+h1 {
+  background-color: #00ffff94;
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+img {
+  width: -webkit-fill-available;
+}
+
+.navbar-brand {
+  font-family: cursive;
+  font-style: italic;
+}
+
+/* form {
+  padding-bottom: 40rem;
+  padding-left: 40rem;
+  padding-right: 40rem;
+} */
+
+.paytm {
+  text-decoration: none;
+  color: currentcolor;
+}
+
+.kem{
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+
+#search {
+	font-family: 'Lato', sans-serif;
+	background-image: url('../src/img/background.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #191a1e;
+}
+
+#home {
+	font-family: 'Lato', sans-serif;
+	background-image: url('../src/img/Booking.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #191a1e;
+}
+
+
+#admin {
+	font-family: 'Lato', sans-serif;
+	background-image: url('../src/img/image.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #191a1e;
+}
+
+#check {
+	font-family: 'Lato', sans-serif;
+	background-image: url('../src/img/check.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #191a1e;
+}
+
+
+.booking-cta {
+	margin-top: 45px;
+  
+  
+}
+
+.booking-cta h1 {
+  /* margin-left: 10%; */
+  font-family: 'Lato', sans-serif;
+	font-size: 52px;
+  /* background-color: transparent; */
+	text-transform: uppercase;
+	color: #0b0b0b;
+	font-weight: 400;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+.booking-cta p {
+	font-size: 22px;
+	color: #191a1e;
+}
+
